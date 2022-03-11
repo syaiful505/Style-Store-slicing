@@ -1,0 +1,18 @@
+.page-success {
+  .row-login {
+    min-height: 75vh; //viewhigh dalam sebuah browser 75%
+  }
+  .section-success {
+    h2 {
+      font-size: 28px;
+      line-height: 42px;
+      font-weight: 200;
+      margin-top: 0;
+      color: #0c0d36;
+    }
+    .btn-signup {
+      @include button-variant(#f3f3f3, transparent);
+      color: #bbbbbb;
+    }
+  }
+}
